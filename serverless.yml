@@ -1,0 +1,11 @@
+org: shehanp12
+name: notesapp
+app: notesapp
+service: notesapp
+component: website
+
+inputs:
+  src:
+    src: ./src
+    hook: npm run build
+    dist: ./dist
